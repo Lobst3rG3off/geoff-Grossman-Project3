@@ -9,57 +9,71 @@
 
 
 // variable  of dog name
+const dogName = $('.dogName');
 
 function sortDog() {
-    const dogName = $('.dogName').value();
-    console.log('the dog name', dogName);
+    
+    console.log('the dog name', dogName.val());
     //variable for dog girth
     const dogCategory = $('select.dogSorter').val();
-    console.log('the dog category', dogCategory);
-    console.log(typeof dogCategory);
     switch (dogCategory) {
         case '1':
-            console.log("Your dog is a Pupperino!");
+            console.log(`${dogName.val()} is a Pupperino!`);
             $('.landingPad').empty()
-$('.landingPad').append('<p>Your dog is a Pupperino!</p>')
+$('.landingPad').append(`<p>${dogName.val()} is a Pupperino!</p>`)
             break;
         case '2':
             console.log("Your dog is a Bean!");
-            $('.landingPad').append('<p>Your dog is a Pupperino!</p>')
+            $('.landingPad').empty()
+            $('.landingPad').append(`<p>${dogName.val()} is a Bean!</p>`)
             break;
         case '3':
             console.log("Your dog is a Puppo!");
-            $('.landingPad').append('<p>Your dog is a Puppo!</p>')
+            $('.landingPad').empty()
+            $('.landingPad').append(`<p>${dogName.val()} is a Puppo!</p>`)
             break;
         case '4':
             console.log("Your dog is a Pupper!");
-            $('.landingPad').append('<p>Your dog is a  Pupper!</p>')
+            $('.landingPad').empty()
+            $('.landingPad').append(`<p>${dogName.val()} is a Pupper!</p>`)
             break;
         case '5':
             console.log("Your dog is a Woofer!");
-            $('.landingPad').append('<p>Your dog is a Woofer!</p>')
+            $('.landingPad').empty()
+            $('.landingPad').append(`<p>${dogName.val()} is a Woofer!</p>`)
             break;
         case '6':
             console.log("Your dog is a Boofer!");
-            $('.landingPad').append('<p>Your dog is a Boofer!</p>')
+            $('.landingPad').empty()
+            $('.landingPad').append(`<p>${dogName.val()} is a  Boofer!</p>`)
             break;
         case '7':
             console.log("Your dog is a Big Boofer!");
-            $('.landingPad').append('<p>Your dog is a Big Boofer!</p>')
+            $('.landingPad').empty()
+            $('.landingPad').append(`<p>${dogName.val()} is a Big Boofer!</p>`)
             break;
         default:
             console.log("Ruh Roh! Try Again!");
+            $('.landingPad').empty()
             $('.landingPad').append('<p>Ruh Roh! Try Again!</p>')
     }
 
 }
 
 
+
+
 $(function () {
     $('form').on('submit', function(event) {
         event.preventDefault();
-        sortDog();
-        console.log('woof woof!')
+
+        if (dogName.val().length > 0){
+sortDog();
+        } else {
+            alert(`Please Include Your Dog's name!`)
+        };
+
+        
 
 
     });
