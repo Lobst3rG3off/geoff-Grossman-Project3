@@ -247,4 +247,8 @@ form fieldset .formWrapper {
 form fieldset label {
   width: 100%;
 }
+
+form fieldset .dogName {
+  width: 60%;
+}
 /*# sourceMappingURL=styles.css.map */
