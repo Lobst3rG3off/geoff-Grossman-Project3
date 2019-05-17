@@ -12,13 +12,15 @@ h1 {
     cursive;
     text-align: center;
     font-size: 4em;
+    color: royalblue;
 }
 
 h2 , p {
     font-family: 'Roboto',
     sans-serif;
     text-align: center;
-    margin: 4% 0;
+    margin: 3% 0;
+    color: royalblue;
 }
 
 
@@ -39,11 +41,15 @@ form {
     width: 65%;
     padding: 5%;
     margin-top: 5%;
+    border-radius: 25%;
     .fas {
         color: darkorange;
     }
     fieldset {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        
         .formWrapper {
             display: flex;
             flex-direction: column;
@@ -52,9 +58,15 @@ form {
         label {
             width: 100%;
             padding: 5px;
+            text-align: center;
+            font-family: 'Roboto',
+            sans-serif;
         }
         .dogName {
             width: 60%;
+        }
+        .button {
+            margin-bottom: 5px;
         }
     }
 }
