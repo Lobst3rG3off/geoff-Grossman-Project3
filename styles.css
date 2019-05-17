@@ -188,6 +188,14 @@ body {
   background-image: url(./assets/dogWallpaper.png);
 }
 
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
 section {
   display: -webkit-box;
   display: -ms-flexbox;

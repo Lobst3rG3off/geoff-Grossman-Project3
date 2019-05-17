@@ -20,42 +20,42 @@ function sortDog() {
         case '1':
             console.log(`${dogName.val()} is a Pupperino!`);
             $('.landingPad').empty()
-$('.landingPad').append(`<p>${dogName.val()} is a Pupperino!</p>`)
+$('.landingPad').append(`<h2>${dogName.val()} is a Pupperino!</h2>`)
             break;
         case '2':
             console.log("Your dog is a Bean!");
             $('.landingPad').empty()
-            $('.landingPad').append(`<p>${dogName.val()} is a Bean!</p>`)
+            $('.landingPad').append(`<h2>${dogName.val()} is a Bean!</h2>`)
             break;
         case '3':
             console.log("Your dog is a Puppo!");
             $('.landingPad').empty()
-            $('.landingPad').append(`<p>${dogName.val()} is a Puppo!</p>`)
+            $('.landingPad').append(`<h2>${dogName.val()} is a Puppo!</h2>`)
             break;
         case '4':
             console.log("Your dog is a Pupper!");
             $('.landingPad').empty()
-            $('.landingPad').append(`<p>${dogName.val()} is a Pupper!</p>`)
+            $('.landingPad').append(`<h2>${dogName.val()} is a Pupper!</h2>`)
             break;
         case '5':
             console.log("Your dog is a Woofer!");
             $('.landingPad').empty()
-            $('.landingPad').append(`<p>${dogName.val()} is a Woofer!</p>`)
+            $('.landingPad').append(`<h2>${dogName.val()} is a Woofer!</h2>`)
             break;
         case '6':
             console.log("Your dog is a Boofer!");
             $('.landingPad').empty()
-            $('.landingPad').append(`<p>${dogName.val()} is a  Boofer!</p>`)
+            $('.landingPad').append(`<h2>${dogName.val()} is a  Boofer!</h2>`)
             break;
         case '7':
             console.log("Your dog is a Big Boofer!");
             $('.landingPad').empty()
-            $('.landingPad').append(`<p>${dogName.val()} is a Big Boofer!</p>`)
+            $('.landingPad').append(`<h2>${dogName.val()} is a Big Boofer!</h2>`)
             break;
         default:
             console.log("Ruh Roh! Try Again!");
             $('.landingPad').empty()
-            $('.landingPad').append('<p>Ruh Roh! Try Again!</p>')
+            $('.landingPad').append('<h2>Ruh Roh! Try Again!</h2>')
     }
 
 }
