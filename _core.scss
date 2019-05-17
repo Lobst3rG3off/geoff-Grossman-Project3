@@ -20,6 +20,7 @@ h2 {
 
 section {
     display: flex;
+    justify-content: center;
     .landingPad {
         background: white;
         text-align: center;
@@ -31,8 +32,6 @@ section {
 form {
     background: white;
     width: 50%;
-    align-items: center;
-    justify-items: center;
     padding: 5%;
     fieldset {
         width: 100%;

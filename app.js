@@ -1,7 +1,4 @@
-// ok steps to accomplish the JS part of this project.
-// create switch statement for sorting
-// set user form inputs as variables to save the information to push through switch statement
-// on submit the users values are printed out on the DOM with the dog being categorized within the output  
+
 
 
 
@@ -12,18 +9,16 @@
 const dogName = $('.dogName');
 
 function sortDog() {
-    
-    console.log('the dog name', dogName.val());
     //variable for dog girth
     const dogCategory = $('select.dogSorter').val();
     switch (dogCategory) {
         case '1':
-            console.log(`${dogName.val()} is a Pupperino!`);
+           
             $('.landingPad').empty()
 $('.landingPad').append(`<h2>${dogName.val()} is a Pupperino!</h2>`)
             break;
         case '2':
-            console.log("Your dog is a Bean!");
+            
             $('.landingPad').empty()
             $('.landingPad').append(`<h2>${dogName.val()} is a Bean!</h2>`)
             break;
