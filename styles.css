@@ -218,6 +218,10 @@ section .landingPad {
   width: 50%;
 }
 
+section .landingPad .dogAnswer {
+  padding-top: 10px;
+}
+
 form {
   background: white;
   width: 65%;
