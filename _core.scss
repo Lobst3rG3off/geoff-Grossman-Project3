@@ -11,19 +11,17 @@ h1 {
     font-family: 'Lobster',
     cursive;
     text-align: center;
+    font-size: 4em;
 }
 
-h2 {
+h2 , p {
     font-family: 'Roboto',
     sans-serif;
     text-align: center;
+    margin: 5% 0;
 }
 
-p {
-    font-family: 'Roboto',
-    sans-serif;
-    text-align: center;
-}
+
 
 section {
     display: flex;
@@ -41,6 +39,9 @@ form {
     width: 65%;
     padding: 5%;
     margin-top: 10%;
+    .fas {
+        color: darkorange;
+    }
     fieldset {
         width: 100%;
     }
