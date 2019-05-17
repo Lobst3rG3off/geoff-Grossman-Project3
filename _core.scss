@@ -10,12 +10,19 @@ body {
 h1 {
     font-family: 'Lobster',
     cursive;
-    
+    text-align: center;
 }
 
 h2 {
     font-family: 'Roboto',
     sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto',
+    sans-serif;
+    text-align: center;
 }
 
 section {
@@ -31,8 +38,9 @@ section {
 
 form {
     background: white;
-    width: 50%;
+    width: 65%;
     padding: 5%;
+    margin-top: 10%;
     fieldset {
         width: 100%;
     }
