@@ -197,7 +197,7 @@ h1 {
 h2, p {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  margin: 5% 0;
+  margin: 4% 0;
 }
 
 section {
@@ -220,7 +220,7 @@ form {
   background: white;
   width: 65%;
   padding: 5%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 form .fas {
@@ -228,6 +228,23 @@ form .fas {
 }
 
 form fieldset {
+  width: 100%;
+}
+
+form fieldset .formWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form fieldset label {
   width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
