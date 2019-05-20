@@ -52,6 +52,7 @@ form {
         width: 100%;
         display: flex;
         flex-direction: column;
+        background: yellowgreen;
         
         .formWrapper {
             display: flex;
@@ -70,6 +71,7 @@ form {
         }
         .button {
             margin-bottom: 5px;
+            border: 1px solid royalblue;
         }
     }
 }

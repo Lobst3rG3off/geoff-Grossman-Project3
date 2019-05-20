@@ -243,6 +243,7 @@ form fieldset {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background: yellowgreen;
 }
 
 form fieldset .formWrapper {
@@ -271,5 +272,57 @@ form fieldset .dogName {
 
 form fieldset .button {
   margin-bottom: 5px;
+  border: 1px solid royalblue;
+}
+
+@media (max-width: 1035px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 854px) {
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 775px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 647px) {
+  h1 {
+    font-size: 2rem;
+  }
+  form {
+    margin-top: 18%;
+  }
+}
+
+@media (max-width: 517px) {
+  form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 473px) {
+  h2 {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  form {
+    margin-top: 35%;
+  }
+  form fieldset {
+    border-radius: 25%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
