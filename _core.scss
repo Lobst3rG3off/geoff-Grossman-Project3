@@ -31,13 +31,13 @@ section {
     display: flex;
     justify-content: center;
 
-    .landingPad {
+    .landing-pad {
         background: white;
         text-align: center;
         margin: 0 auto;
         width: 50%;
 
-        .dogAnswer {
+        .dog-answer {
             padding-top: 10px;
         }
     }
@@ -62,7 +62,7 @@ form {
         flex-direction: column;
         background: yellowgreen;
 
-        .formWrapper {
+        .form-wrapper {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -76,7 +76,7 @@ form {
                 sans-serif;
         }
 
-        .dogName {
+        .dog-name {
             width: 60%;
         }
 

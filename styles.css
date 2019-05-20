@@ -213,14 +213,14 @@ section {
           justify-content: center;
 }
 
-section .landingPad {
+section .landing-pad {
   background: white;
   text-align: center;
   margin: 0 auto;
   width: 50%;
 }
 
-section .landingPad .dogAnswer {
+section .landing-pad .dog-answer {
   padding-top: 10px;
 }
 
@@ -249,7 +249,7 @@ form fieldset {
   background: yellowgreen;
 }
 
-form fieldset .formWrapper {
+form fieldset .form-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,7 +269,7 @@ form fieldset label {
   font-family: 'Roboto', sans-serif;
 }
 
-form fieldset .dogName {
+form fieldset .dog-name {
   width: 60%;
 }
 
