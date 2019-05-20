@@ -196,7 +196,8 @@ h1 {
   color: royalblue;
 }
 
-h2, p {
+h2,
+p {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin: 3% 0;
