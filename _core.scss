@@ -5,6 +5,7 @@
 
 body {
     background-image: url(./assets/dogWallpaper.png);
+    background-repeat: round;
 }
 
 h1 {
@@ -70,6 +71,7 @@ form {
             width: 60%;
         }
         .button {
+            width: 100%;
             margin-bottom: 5px;
             border: 1px solid royalblue;
         }
