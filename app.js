@@ -47,7 +47,7 @@ function sortDog() {
 }
 
          // Easter Egg
-         
+        //  listens to Konami code and executes function
              let keys = [];
              let konami = '38,38,40,40,37,39,37,39,66,65';
              $(document).keydown(function (e) {
@@ -71,6 +71,7 @@ $(function () {
         if (dogName.val().length > 0) {
             sortDog();
         } else {
+            //If no name is added alert
             alert(`Please Include Your Dog's name!`)
         };
 
