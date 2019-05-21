@@ -11,37 +11,37 @@ function sortDog() {
         case '1':
 
             $('.landing-pad').empty()
-            $('.landing-pad').append(`<h2 class="dog-answer">${dogName.val()} is a Pupperino!</h2>`)
+            $('.landing-pad').append(`<h2 class="dog-answer animate jello ">${dogName.val()} is a Pupperino!</h2>`)
             break;
         case '2':
 
             $('.landing-pad').empty()
-            $('.landing-pad').append(`<h2 class="dog-answer">${dogName.val()} is a Bean!</h2>`)
+            $('.landing-pad').append(`<h2 class="dog-answer animate jello">${dogName.val()} is a Bean!</h2>`)
             break;
         case '3':
 
             $('.landing-pad').empty()
-            $('.landing-pad').append(`<h2 class="dog-answer">${dogName.val()} is a Puppo!</h2>`)
+            $('.landing-pad').append(`<h2 class="dog-answer animate jello">${dogName.val()} is a Puppo!</h2>`)
             break;
         case '4':
             $('.landing-pad').empty()
-            $('.landing-pad').append(`<h2 class="dog-answer">${dogName.val()} is a Pupper!</h2>`)
+            $('.landing-pad').append(`<h2 class="dog-answer animate jello">${dogName.val()} is a Pupper!</h2>`)
             break;
         case '5':
             $('.landing-pad').empty()
-            $('.landing-pad').append(`<h2 class="dog-answer">${dogName.val()} is a Woofer!</h2>`)
+            $('.landing-pad').append(`<h2 class="dog-answer animate jello ">${dogName.val()} is a Woofer!</h2>`)
             break;
         case '6':
             $('.landing-pad').empty()
-            $('.landing-pad').append(`<h2 class="dog-answer">${dogName.val()} is a  Boofer!</h2>`)
+            $('.landing-pad').append(`<h2 class="dog-answer animate jello">${dogName.val()} is a  Boofer!</h2>`)
             break;
         case '7':
             $('.landing-pad').empty()
-            $('.landing-pad').append(`<h2 class="dog-answer">${dogName.val()} is a Big Boofer!</h2>`)
+            $('.landing-pad').append(`<h2 class="dog-answer animate jello">${dogName.val()} is a Big Boofer!</h2>`)
             break;
         default:
             $('.landing-pad').empty()
-            $('.landing-pad').append('<h2class="dog-answer">Ruh Roh! Try Again!</h2>')
+            $('.landing-pad').append('<h2class="dog-answer animate jello">Ruh Roh! Try Again!</h2>')
     }
 
 }
